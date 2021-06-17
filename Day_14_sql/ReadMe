@@ -1,0 +1,5 @@
+Our highlights: 
+0. Defined base ideas and columns to tidy up a basic structure.
+1. We’ve created the specifications_id concept to be able to filter directly by restaurant without the need to check menu by menu (being able to detect restaurants with dishes compatible with vegetarian or food allergy requirement options)  
+2. In Food Specificcation we changed menu_id for specification_id so we could show all the options specification wise without having to enter all the menus available. 
+3. Transaction table possibilities : offering options to the Mkt team such as: coupons for less active users, reward for best customers, etc. detect best performers in both restaurant and menu list
