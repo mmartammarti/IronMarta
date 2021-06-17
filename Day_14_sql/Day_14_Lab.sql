@@ -26,16 +26,20 @@ ORDER BY category_id;
 
 
 # 4. Which actor has appeared in the most films?
-select a.actor_id, a.first_name, a.last_name, b.film_id 
+select a.actor_id, a.first_name, a.last_name, b.film_id, count(film_id) as times_appears
 from actor a
-right join film_actor b
+join film_actor b
 on a.actor_id = b.actor_id
-
-select actor_id, count(film_id) from film_actor
-group by actor_id 
+group by actor_id
+order by count(film_id) desc;
 
 # 5. Most active customer (the customer that has rented the most number of films)
-
+select c.customer_id, c.first_name, c.last_name, count(r.customer_id) as no_transactions
+from customer c
+join rental r
+on c.customer_id = r.customer_id
+group by c.customer_id
+order by count(c.customer_id) desc;
 
 
 # 6. Bonus: Which is the most rented film? The answer is Bucket Brotherhood This query might require using more than one join statement. Give it a try. We will talk about queries with multiple join statements later in the lessons.
