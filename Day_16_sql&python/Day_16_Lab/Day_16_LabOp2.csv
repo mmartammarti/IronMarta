@@ -1,0 +1,17 @@
+avg(p.amount),name
+3.855903,Family
+3.868307,Children
+3.876028,Classics
+3.935117,Action
+3.993396,Animation
+4.016686,Documentary
+4.117735,Music
+4.134240,Foreign
+4.240908,Travel
+4.320599,Sci-Fi
+4.327726,Drama
+4.400165,Horror
+4.418297,Games
+4.507388,Sports
+4.629383,New
+4.658427,Comedy
