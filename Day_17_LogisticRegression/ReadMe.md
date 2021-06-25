@@ -60,5 +60,14 @@ group by loan_id, l.amount, status, d.A12, d.A13, c.birth_number, d.A15, d.A16, 
 ''', engine)
 ```
 
+### The graphs
+<img width="705" alt="Screenshot 2021-06-25 at 11 51 31" src="https://user-images.githubusercontent.com/30186859/123407115-e1d6b280-d5ab-11eb-9a69-fa684a15aebf.png">
+<img width="701" alt="Screenshot 2021-06-25 at 11 51 36" src="https://user-images.githubusercontent.com/30186859/123407109-e13e1c00-d5ab-11eb-8786-080ef442682e.png">
+<img width="654" alt="Screenshot 2021-06-25 at 11 51 45" src="https://user-images.githubusercontent.com/30186859/123407106-e13e1c00-d5ab-11eb-9528-56ca5667e238.png">
+<img width="666" alt="Screenshot 2021-06-25 at 11 51 52" src="https://user-images.githubusercontent.com/30186859/123407098-e00cef00-d5ab-11eb-98e5-48e3475582cb.png">
+
+
+
+
 ```
 ```
