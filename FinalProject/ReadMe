@@ -17,7 +17,7 @@ __Scenario__: After the pandemic, many considered moving outside the cities look
 __Challenge__: Scrapping and cleaning the data from a website had been the major issue.
 You can follow the evolution of the project's workflow in [my board in Trello.](https://trello.com/b/4OnE95KR/ironhack-final-project)
 
-__Results__: I created an original storytelling [in Medium] that can bring you inside the project's use. (https://damarisclariana.medium.com/once-upon-a-time-in-2020-f69d2bfbf688). Also, see my [class presentation](https://docs.google.com/presentation/d/1dQKDws_-9TbYiWTeNklnyJOZwzONCreBCL8sHWzBlGM/edit?usp=sharing).
+__Results__: I created an original storytelling [in Medium] that can bring you inside the project's use. (https://martamartidausa.medium.com/and-with-covid-between-us-who-doesnt-want-to-have-a-garden-81cab88e28ac). Also, see my [class presentation](https://docs.google.com/presentation/d/1X7bsca3wnFJv7AvcrR5nxuRQXGou_5He9GYLCsOR5ic/edit#slide=id.p).
 
 ## Finding and processing the data 
 
@@ -57,13 +57,14 @@ for href in listings_soups:
     link.append(href.find(soup.select('h3')))
     price.append(soup.find_all('span',class_="font-2"))
     sqm.append(href.find('p', class_="list-item-feature"))
-  
+  ```
+
+__Challenge__:The most difficult part of this data processing section has been cleaning data with random strings in different cells. Finding the right RegEx and execute it properly to be more specciffic. (See example of code below:)
 
 ```
+```
 
-__Challenge__:The most difficult part of this data processing section has been translating all the columns into English all together at the same time.
-
-__Learnings/Conclusions__: Look at the code we finally (and with some help) came up with!
+__Learnings/Conclusions__: As a conclusion I would like to reinforce how much I learned! And how challenging web scrapping is if you have such limited ammount of time. But it has been a great project to close this BootCamp with.
 
 
 ## Processing data with Tableau  
