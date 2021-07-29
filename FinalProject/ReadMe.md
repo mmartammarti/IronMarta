@@ -77,4 +77,9 @@ __Challenge__: Finding the right code to extract the data, which finally has tur
 
 __Learnings/Conclusions__: the most difficult part of this data cleaning has been finding the right code to extract the data from random strings in different cells. Finding the right RegEx and execute it properly to be more specciffic. (See example of code below:)
 
-Thanks for reading!
+  ```
+CleanData['sqm']=CleanData.value.str.extract(r'(^\d+\s|\s{1}\d+[m])')
+  ```
+This was a very challenging project worth trying and with a lot of margin of improvement!
+
+Thanks for reading :)
