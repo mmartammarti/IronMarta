@@ -72,7 +72,9 @@ __Learnings/Conclusions__: As a conclusion I would like to reinforce how much I 
 ## Data Cleaning  
 
 __Tasks__: From every peace of data scrapped I has to extract the information I needed.
+
 __Challenge__: Finding the right code to extract the data, which finally has turned up to be RegEx.
+
 __Learnings/Conclusions__: the most difficult part of this data cleaning has been finding the right code to extract the data from random strings in different cells. Finding the right RegEx and execute it properly to be more specciffic. (See example of code below:)
 
 Thanks for reading!
