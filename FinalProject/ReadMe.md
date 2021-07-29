@@ -21,7 +21,7 @@ Some more info about how everything worked:
 
 ## Finding and processing the data 
 
-This project has been developped with data scrapped from the site [Habitaclea.com](link here](https://www.habitaclia.com/viviendas-en-valles_oriental.htm), limiting the search in the Valles Oriental area (50km far from Barcelona city center, known by its green surroundings and hicking paths options).
+This project has been developped with data scrapped from the site [Habitaclea.com](https://www.habitaclia.com/viviendas-en-valles_oriental.htm), limiting the search in the Valles Oriental area (50km far from Barcelona city center, known by its green surroundings and hicking paths options).
 
 __Tasks__: I have worked on the Scrapping process of the site, extracting 3 main groups of data:
 
